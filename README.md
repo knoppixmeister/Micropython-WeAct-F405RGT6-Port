@@ -34,7 +34,6 @@ minicom -D /dev/ttyACM0
 screen /dev/ttyACM0
 
 picocom /dev/ttyACM0
-
 ```
 
 5) Enjoy!
