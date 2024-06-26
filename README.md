@@ -20,7 +20,7 @@ ls -lah | grep firm
 3) Flash .hex file to the board by STM32CubeProgrammer
 ```
 1) Boot the board in DFU mode holding B0 button while plug in to USB port. Release B0 button after 1 sec.
-2) Start STM32CubeProgrammer. Select USB connection -> press Connect button
+2) Start STM32CubeProgrammer. Select USB connection (on right panel/column) -> press Connect button
 3) On the "Erase & programmimg" tabl (from left side) press "Full chip erase". Wait for proess complete 
 4) Go Back to "Memory & File editing" tab. Click "Open File" tab (from top). Find and open created .hex file from step 1 & 2
 5) Click "Download" button. Wait for process until completed.
