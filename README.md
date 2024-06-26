@@ -5,6 +5,7 @@ git clone https://github.com/micropython/micropython.git
 cd micropython/ports/stm32/boards
 
 git clone https://github.com/knoppixmeister/Micropython-WeAct-F405RGT6-Port.git WeAct-F405RG
+
 make BOARD=WeAct-F405RG submodules
 make BOARD=WeAct-F405RG
 
